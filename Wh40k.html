@@ -2745,51 +2745,23 @@ on("change:repeating_rangedweapons", function() {
 	<div class="sheet-wrapper">
 		
 		<div class="sheet-2colrow">
-			<div class="sheet-dhcol">
-			    <h3 style="width: 200%;" data-i18n="aptitudes-u">Aptitudes</h3>
-			    <div class="sheet-row">
-					<div class="sheet-item" style="width:100%">
-						<select class="advanceselect" name="attr_1stAptitude">
-							<option data-i18n="aptitude" selected disabled>Aptitude</option>
-							<option data-i18n="general-u">General</option>
-							<option data-i18n="weapon-skill-u">Weapon Skill</option>
-							<option data-i18n="ballistic-skill-u">Ballistic Skill</option>
-							<option data-i18n="strength-u">Strength</option>
-							<option data-i18n="toughness-u">Toughness</option>
-							<option data-i18n="agility-u">Agility</option>
-							<option data-i18n="intelligence-u">Intelligence</option>
-							<option data-i18n="perception-u">Perception</option>
-							<option data-i18n="willpower-u">Willpower</option>
-							<option data-i18n="fellowship-u">Fellowship</option>
-							<option data-i18n="influence-u">Influence</option>
-							<option data-i18n="offence-u">Offence</option>
-							<option data-i18n="finesse-u">Finesse</option>
-							<option data-i18n="defence-u">Defence</option>
-							<option data-i18n="psyker-u">Psyker</option>
-							<option data-i18n="tech-u">Tech</option>
-							<option data-i18n="knowledge-u">Knowledge</option>
-							<option data-i18n="leadership-u">Leadership</option>
-							<option data-i18n="fieldcraft-u">Fieldcraft</option>
-							<option data-i18n="social-u">Social</option>
-						</select>
-					</div>
-				</div>
+			<div class="sheet-dhcol sheet-colcor">
+			    <h3 style="width: 100%;" data-i18n="aptitudes-u">Aptitudes</h3>
 				<fieldset class="repeating_AptitudeCol1">
 				<div class="sheet-row">
 					<div class="sheet-item" style="width:100%">
 						<select class="advanceselect" name="attr_Aptitude1Re">
 							<option data-i18n="aptitude" selected disabled>Aptitude</option>
 							<option data-i18n="general-u">General</option>
-							<option data-i18n="weapon-skill-u">Weapon Skill</option>
-							<option data-i18n="ballistic-skill-u">Ballistic Skill</option>
-							<option data-i18n="strength-u">Strength</option>
-							<option data-i18n="toughness-u">Toughness</option>
-							<option data-i18n="agility-u">Agility</option>
-							<option data-i18n="intelligence-u">Intelligence</option>
-							<option data-i18n="perception-u">Perception</option>
-							<option data-i18n="willpower-u">Willpower</option>
-							<option data-i18n="fellowship-u">Fellowship</option>
-							<option data-i18n="influence-u">Influence</option>
+							<option data-i18n="weapon-skill-apt-u">Weapon Skill</option>
+							<option data-i18n="ballistic-skill-apt-u">Ballistic Skill</option>
+							<option data-i18n="strength-apt-u">Strength</option>
+							<option data-i18n="toughness-apt-u">Toughness</option>
+							<option data-i18n="agility-apt-u">Agility</option>
+							<option data-i18n="intelligence-apt-u">Intelligence</option>
+							<option data-i18n="perception-apt-u">Perception</option>
+							<option data-i18n="willpower-apt-u">Willpower</option>
+							<option data-i18n="fellowship-apt-u">Fellowship</option>
 							<option data-i18n="offence-u">Offence</option>
 							<option data-i18n="finesse-u">Finesse</option>
 							<option data-i18n="defence-u">Defence</option>
@@ -2804,105 +2776,10 @@ on("change:repeating_rangedweapons", function() {
 				</div>
 				</fieldset>
 			</div>
-<div class="sheet-dhcol">
-				<div class="sheet-row">
-					<div class="sheet-item" style="width:100%">
-					</div>
-				</div>
-				<div class="sheet-row">
-					<div class="sheet-item" style="width:100%">
-						<select class="advanceselect" name="attr_2ndAptitude">
-							<option data-i18n="aptitude" selected disabled>Aptitude</option>
-							<option data-i18n="general-u">General</option>
-							<option data-i18n="weapon-skill-u">Weapon Skill</option>
-							<option data-i18n="ballistic-skill-u">Ballistic Skill</option>
-							<option data-i18n="strength-u">Strength</option>
-							<option data-i18n="toughness-u">Toughness</option>
-							<option data-i18n="agility-u">Agility</option>
-							<option data-i18n="intelligence-u">Intelligence</option>
-							<option data-i18n="perception-u">Perception</option>
-							<option data-i18n="willpower-u">Willpower</option>
-							<option data-i18n="fellowship-u">Fellowship</option>
-							<option data-i18n="influence-u">Influence</option>
-							<option data-i18n="offence-u">Offence</option>
-							<option data-i18n="finesse-u">Finesse</option>
-							<option data-i18n="defence-u">Defence</option>
-							<option data-i18n="psyker-u">Psyker</option>
-							<option data-i18n="tech-u">Tech</option>
-							<option data-i18n="knowledge-u">Knowledge</option>
-							<option data-i18n="leadership-u">Leadership</option>
-							<option data-i18n="fieldcraft-u">Fieldcraft</option>
-							<option data-i18n="social-u">Social</option>
-						</select>
-					</div>
-				</div>
-			<fieldset class="repeating_AptitudeCol2">
-				<div class="sheet-row">
-					<div class="sheet-item" style="width:100%">
-						<select class="advanceselect" name="attr_Aptitude2Re">
-							<option data-i18n="aptitude" selected disabled>Aptitude</option>
-							<option data-i18n="general-u">General</option>
-							<option data-i18n="weapon-skill-u">Weapon Skill</option>
-							<option data-i18n="ballistic-skill-u">Ballistic Skill</option>
-							<option data-i18n="strength-u">Strength</option>
-							<option data-i18n="toughness-u">Toughness</option>
-							<option data-i18n="agility-u">Agility</option>
-							<option data-i18n="intelligence-u">Intelligence</option>
-							<option data-i18n="perception-u">Perception</option>
-							<option data-i18n="willpower-u">Willpower</option>
-							<option data-i18n="fellowship-u">Fellowship</option>
-							<option data-i18n="influence-u">Influence</option>
-							<option data-i18n="offence-u">Offence</option>
-							<option data-i18n="finesse-u">Finesse</option>
-							<option data-i18n="defence-u">Defence</option>
-							<option data-i18n="psyker-u">Psyker</option>
-							<option data-i18n="tech-u">Tech</option>
-							<option data-i18n="knowledge-u">Knowledge</option>
-							<option data-i18n="leadership-u">Leadership</option>
-							<option data-i18n="fieldcraft-u">Fieldcraft</option>
-							<option data-i18n="social-u">Social</option>
-						</select>
-					</div>
-				</div>
-				</fieldset>
-				
-
-</div>
-			
 			<div class="sheet-dhcol sheet-colcor">
 			    <div class="sheet-row">
 			        <h3 data-i18n="elite-advances-u">Elite Advances</h3>
-					<div class="sheet-item" style="width:25%"><span data-i18n="elite-advance-u">Elite Advance:</span></div>
-					<div class="sheet-item" style="width:30%"><input name="attr_EliteAdvances" type="text" data-i18n-placeholder="advance-title-u" Placeholder="Advance Title"></div>
-					<div class="sheet-item" style="width:15%"><input name="attr_EliteAdvances1" type="text" data-i18n-placeholder="experience-points-u" Placeholder="XP" style="text-align:center;"></div>
-					<div class="sheet-item" style="width:30%">						
-					    <select class="advanceselect" name="attr_AptitudeEA">
-							<option data-i18n="aptitude" selected disabled>Aptitude</option>
-							<option data-i18n="general-u">General</option>
-							<option data-i18n="weapon-skill-u">Weapon Skill</option>
-							<option data-i18n="ballistic-skill-u">Ballistic Skill</option>
-							<option data-i18n="strength-u">Strength</option>
-							<option data-i18n="toughness-u">Toughness</option>
-							<option data-i18n="agility-u">Agility</option>
-							<option data-i18n="intelligence-u">Intelligence</option>
-							<option data-i18n="perception-u">Perception</option>
-							<option data-i18n="willpower-u">Willpower</option>
-							<option data-i18n="fellowship-u">Fellowship</option>
-							<option data-i18n="influence-u">Influence</option>
-							<option data-i18n="offence-u">Offence</option>
-							<option data-i18n="finesse-u">Finesse</option>
-							<option data-i18n="defence-u">Defence</option>
-							<option data-i18n="psyker-u">Psyker</option>
-							<option data-i18n="tech-u">Tech</option>
-							<option data-i18n="knowledge-u">Knowledge</option>
-							<option data-i18n="leadership-u">Leadership</option>
-							<option data-i18n="fieldcraft-u">Fieldcraft</option>
-							<option data-i18n="social-u">Social</option>
-						</select>
 				</div>
-				</div>
-				<br>
-				<br>
 				<fieldset class="repeating_eliteadvances">
 				<div class="sheet-row">
 				    <div class="sheet-item" style="width:25%"><span data-i18n="elite-advance-u">Elite Advance:</span></div>
@@ -2912,16 +2789,15 @@ on("change:repeating_rangedweapons", function() {
 					    <select class="advanceselect" name="attr_EAAptitudeRe">
 							<option data-i18n="aptitude" selected disabled>Aptitude</option>
 							<option data-i18n="general-u">General</option>
-							<option data-i18n="weapon-skill-u">Weapon Skill</option>
-							<option data-i18n="ballistic-skill-u">Ballistic Skill</option>
-							<option data-i18n="strength-u">Strength</option>
-							<option data-i18n="toughness-u">Toughness</option>
-							<option data-i18n="agility-u">Agility</option>
-							<option data-i18n="intelligence-u">Intelligence</option>
-							<option data-i18n="perception-u">Perception</option>
-							<option data-i18n="willpower-u">Willpower</option>
-							<option data-i18n="fellowship-u">Fellowship</option>
-							<option data-i18n="influence-u">Influence</option>
+							<option data-i18n="weapon-skill-apt-u">Weapon Skill</option>
+							<option data-i18n="ballistic-skill-apt-u">Ballistic Skill</option>
+							<option data-i18n="strength-apt-u">Strength</option>
+							<option data-i18n="toughness-apt-u">Toughness</option>
+							<option data-i18n="agility-apt-u">Agility</option>
+							<option data-i18n="intelligence-apt-u">Intelligence</option>
+							<option data-i18n="perception-apt-u">Perception</option>
+							<option data-i18n="willpower-apt-u">Willpower</option>
+							<option data-i18n="fellowship-apt-u">Fellowship</option>
 							<option data-i18n="offence-u">Offence</option>
 							<option data-i18n="finesse-u">Finesse</option>
 							<option data-i18n="defence-u">Defence</option>
@@ -2932,7 +2808,7 @@ on("change:repeating_rangedweapons", function() {
 							<option data-i18n="fieldcraft-u">Fieldcraft</option>
 							<option data-i18n="social-u">Social</option>
 						</select>
-				</div>
+					</div>
 				</div>
 				    
 				</fieldset>

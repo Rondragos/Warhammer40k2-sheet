@@ -505,7 +505,7 @@
    "other-skills-u":"Other Skills",
    "ballistic-skill-u":"BS",
    "toughness-u":"T",
-   "perception-u":"Perception",
+   "perception-u":"Per",
    "corruption-u":"Corruption (C)",
    "insanity-u":"Insanity (Is)",
    "talents-u":"Talents",
@@ -633,5 +633,15 @@
    "peer-u":"Peer: ",
    "enemies-u":"Enemies",
    "enemy-u":"Enemy: ",
-   "scatter-diagram-u":"Scatter Diagram"
+   "scatter-diagram-u":"Scatter Diagram",
+   "ballistic-skill-apt-u":"Ballistic Skill",
+   "weapon-skill-apt-u":"Weapon Skill",
+   "strength-apt-u":"Strength",
+   "toughness-apt-u":"Toughness",
+   "agility-apt-u":"Agility",
+   "intelligence-apt-u":"Intelligence",
+   "perception-apt-u":"Perception",
+   "willpower-apt-u":"Willpower",
+   "fellowship-apt-u":"Fellowship",
+   "influence-apt-u":"Influence"
 }
